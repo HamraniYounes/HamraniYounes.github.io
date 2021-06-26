@@ -1,0 +1,55 @@
+/*media print */
+
+@media print {
+    @page {
+        margin: 1cm;
+        size: A4 portrait;
+        width: 100%;
+    }
+    form {
+        display: none;
+    }
+    .fleches {
+        display: none;
+    }
+    .navbar .logo a span {
+        color: green;
+    }
+    .box {
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #353535;
+        text-align: left;
+        width: 290px;
+        position: relative;
+        margin-left: 20px;
+        opacity: 1;
+        font-size: 18px;
+    }
+    .part2 {
+        width: 100%;
+        margin-left: 0;
+        background-color: #222;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .education {
+        float: left;
+        width: 50%;
+    }
+    .experience {
+        width: 50%;
+    }
+    .langue:after {
+        display: none;
+    }
+    .slider1 {
+        all: initial;
+        font-size: 14px;
+    }
+    .slider2 {
+        all: initial;
+        font-size: 14px;
+        display: inline-block;
+    }
+}
