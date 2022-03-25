@@ -2,266 +2,211 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Hamrani Younes">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV de Hamrani Younes</title>
+    <meta name="description" content="Hamrani Younes's portfolio">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="print.css">
     <script src="jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-search-pseudo-elements></script>
-    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/4d7c20a048.js" crossorigin="anonymous"></script>
+    <title>Hamrani Younes</title>
 </head>
 
 <body>
-    <!--Navbar-->
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo" lang="ar">
-                <a href="#">يونس<span> حمراني</span></a>
-            </div>
-
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Edu">Education</a></li>
-                <li><a href="#Exp">Experience and projects</a></li>
-                <li><a href="#Lang">Languages and skills</a></li>
-                <li><a href="#Hobb">Hobbies</a></li>
-                <li><a href="#Cont">Contact</a></li>
-            </ul>
-
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-
-    <!--Home section start-->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <img src="pictures/younes.jpg" alt="profile picture" class="rond" />
-
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Younes Hamrani</div>
-                <div class="text-3">and I am a</div>
-                <div class="text-4"><span>cybersecurity student</span></div>
-                <div class="text-4">born the 24 October 1996</div>
-                <div>(<span id="age"></span>)</div>
-            </div>
-        </div>
-    </section>
-
-    <div class="part2">
-        <!--Education section start-->
-        <section class="education" id="Edu">
-            <div class="max-width">
-                <h3 class="sections">Education</h3>
-                <div class="timeline">
-                    <div class="box">
-                        <div class="annee">2009-2015</div>
-                        <h5>Institute Saint-Andre Ramegnies-Chin</h5>
-                        <p>(College Degree)</p>
-                        <p>Option: Mathematics-Sciences</p>
-                        <p>
-                            <a class="lien" href="https://www.st-andre.be/accueil/" target="_blank">website >>
-              </a>
-                        </p>
-                    </div>
-
-                    <div class="box">
-                        <div class="annee">2015-2019</div>
-                        <h5>HeLHa Site Rue Frisnoise Tournai</h5>
-                        <p>(Two years done)</p>
-                        <p>Informatic technologies</p>
-                        <p>
-                            <a class="lien" href="https://www.helha.be/etude/technique/tournai/edito-53/" target="_blank">website >>
-              </a>
-                        </p>
-                    </div>
-
-                    <div class="box">
-                        <div class="annee">2019-ongoing</div>
-                        <h5>HeH Sciences and technologies departement Mons</h5>
-                        <p>(Ongoing bachelor)</p>
-                        <p>Computer Sciences and System</p>
-                        <p>Orientation Networks and Telecommunications</p>
-                        <p>Security option</p>
-                        <p>
-                            <a class="lien" href="https://www.heh.be/bachelier-informatique" target="_blank">website >>
-              </a>
-                        </p>
-                    </div>
+    <main class="principal">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile">
+                    <img src="./images/younes.jpg" alt="">
+                    <h2 class="name">Hamrani Younes</h2>
+                    <p class="career">Cybersecurity Student</p>
                 </div>
-            </div>
-        </section>
-
-        <!--Experience-->
-        <section class="experience" id="Exp">
-            <div class="max-width">
-                <h3>Experience and projects</h3>
-
-                <div class="contenir">
-                    <div class="box">
-                        <h5>Soenen Golkarton</h5>
-                        <h6>Hooglede, Belgium</h6>
-                        <p>(Summer job)</p>
-                        <div class="annee">Summers 2015-2016-2017 and 2020</div>
-                        <p>Machine Operator in production line</p>
-                        <p>
-                            <a class="lien" href="https://www.soenen-golfkarton.com/fr/contact/contactez" target="_blank">website >>
-              </a>
-                        </p>
-                    </div>
-
-                    <div class="box">
-                        <h5>HeLHa Rue Frisnoise Site</h5>
-                        <h6>Tournai, Belgium</h6>
-                        <p>(School project)</p>
-                        <p>Second quadrimestre 2018</p>
-                        <p>SAN Deployment</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!--Languages and skils-->
-    <div class="part3">
-        <section class="skills" id="Lang">
-            <div class="max-width">
-                <h3>Languages and Skills</h3>
-
-                <div id="lucarne1" class="bulle">
-                    <ul class="slider1">
+                <div class="contact-info">
+                    <h3 class="main-title">Contact informations</h3>
+                    <ul>
                         <li>
-                            <div class="langue">
-                                <p>Français</p>
-                                <p>Native</p>
-                            </div>
+                            <i class="fas fa-mobile-alt"></i>
+                            <p>+32 465 46 32 84</p>
                         </li>
                         <li>
-                            <div class="langue">
-                                <p>English</p>
-                                <p>Very Good (B1-B2)</p>
-                            </div>
+                            <i class="far fa-envelope"></i>
+                            <p>younes.hamrani24@outlook.com</p>
                         </li>
                         <li>
-                            <div class="langue">
-                                <p>Arabic</p>
-                                <p>Basic</p>
-                            </div>
+                            <i class="fab fa-linkedin"></i>
+                            <p>younes-hamrani</p>
                         </li>
                         <li>
-                            <div class="langue">
-                                <p>Spanish</p>
-                                <p>Basic</p>
-                            </div>
+                            <i class="fa-brands fa-github"></i>
+                            <p>HamraniYounes</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            <p>Pecq, Belgium</p>
                         </li>
                     </ul>
-                    <div class="fleches">
-                        <div class="arrow_prev">
-                            <i class="fas fa-angle-left"></i>
-                        </div>
-                        <div class="arrow_next">
-                            <i class="fas fa-angle-right"></i>
-                        </div>
-                    </div>
                 </div>
+                <div class="skills">
+                    <h5 class="sub-title">Skills</h5>
+                    <ul>
+                        <li>
+                            <i class="fas fa-wifi"></i>
+                            <p>Networking, Fortinet</p>
+                        </li>
 
-                <div class="talent" class="bulle">
-                    <ul class="slider2">
                         <li>
-                            <div class="talents">
-                                <i class="fas fa-wifi"></i>
-                                <p>Networking</p>
-                            </div>
+                            <i class="fas fa-code-branch"></i>
+                            <p>Java, C#, Python, Java</p>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-code"></i>
+                            <p>HTML, CSS</p>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-js"></i>
+                            <p>Javascript, JQuery</p>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-database"></i>
+                            <p>MySQL</p>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-linux"></i>
+                            <p>Linux administration, Bash</p>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-windows"></i>
+                            <p>Windows Server, Powershell</p>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-calendar-check-o"></i>
+                            <p>Git, Docker, Scrum, Agile</p>
                         </li>
                         <li>
-                            <div class="talents">
-                                <i class="fas fa-code-branch"></i>
-                                <p>Java,C#,Python</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="talents">
-                                <i class="fas fa-code"></i>
-                                <p>HTML,CSS</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="talents">
-                                <i class="fab fa-js"></i>
-                                <p>Javascript,JQuery</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="talents">
-                                <i class="fas fa-database"></i>
-                                <p>MySQL</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="talents">
-                                <i class="fab fa-linux"></i>
-                                <p>Linux administration</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="talents">
-                                <i class="fab fa-windows"></i>
-                                <p>Windows Server</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="talents">
-                                <i class="far fa-file-pdf"></i>
-                                <p>LaTEX</p>
-                            </div>
+                            <i class="fa-solid fa-language"></i>
+                            <p>French [Native] , English [B2], Spanish [reading]</p>
                         </li>
                     </ul>
-                    <div class="fleches">
-                        <div class="arrow_prev2">
-                            <i class="fas fa-angle-left"></i>
-                        </div>
-                        <div class="arrow_next2">
-                            <i class="fas fa-angle-right"></i>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
+        <section class="right-section">
+            <div class="main-content-right">
+                <section class="about sect">
+                    <h2 class="right-title">About me</h2>
+                    <p class="about">
+                        Young persevering student keen by computer sciences and cybersecurity.
+                        Endowed with a logical, critical spirit, am proactive in my way of work and
+                        I am very motivated to perform an internship in the ﬁeld of ICT.</p>
+                </section>
 
-        <section class="hobbies" id="Hobb">
-            <div class="max-width">
-                <h3>Hobbies</h3>
-                <div class="passions"><i class="fas fa-gamepad"></i> Video games</div>
-                <div class="passions"><i class="fas fa-plane"></i> Traveling</div>
-                <div class="passions"><i class="fas fa-futbol"></i> Sports (Muay Thai)</div>
-                <div class="passions"><i class="fas fa-book"></i> Reading</div>
-                <div class="passions"><i class="fas fa-landmark"></i> History</div>
+                <section class="experience sect">
+                    <h2 class="right-title">Experience</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Logiscool</h5>
+                            <p class="para">jan 2022 - currently</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Programming professor</h5>
+                                <p class="para">Teaching kids how to program small games
+                                    with blocks to help them aquiring algorithmic thinking</p>
+                            </div>
+                        </div>
+
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Soenen Golfkarton</h5>
+                            <p class="para">Summers 2015-2016-2017-2020</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Machine operator</h5>
+                                <p class="para">Individual running of machines and industrial orderings</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="experience sect">
+                    <h2 class="right-title">Education</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">HeH Sciences et technologies campus Mons</h5>
+                            <p class="para">September 2019 - currently</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Bachelor Computer Sciences & systems</h5>
+                                <p class="para">Orientation networks & telecommunications, security option</p>
+                            </div>
+                        </div>
+
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">HeLHa Campus technique Tournai</h5>
+                            <p class="para">September 2015 - August 2019</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Bachelor Computer Sciences Technologies</h5>
+                                <p class="para">2 years achieved</p>
+                            </div>
+                        </div>
+
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Institut Saint-André Ramegnies-Chin</h5>
+                            <p class="para">June 2015</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">CESS</h5>
+                                <p class="para">Option: Sciences-Math</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="hobbies sect">
+                    <div class="hobbies">
+                        <h2 class="right-title">Hobbies</h2>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-guitar"></i>
+                                <p>Oud (self-taugh)</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-satellite"></i>
+                                <p>Astromony</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-landmark"></i>
+                                <p>History</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-medal"></i>
+                                <p>Thai Boxing, Fitness</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-cookie-bite"></i>
+                                <p>Cooking</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mountain"></i>
+                                <p>Nature</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </section>
-    </div>
-
-    <section class="contact" id="Cont">
-        <div class="max-width">
-            <h3>Contact</h3>
-            <div class="information">
-                <p><i class="fas fa-mobile-alt"></i> Phone Number +32 465 46 32 84</p>
-                <p><i class="far fa-envelope"></i> Mail younes.hamrani24@outlook.com</p>
-                <p><a id="linkedin" href="https://www.linkedin.com/in/younes-hamrani/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn Younes Hamrani</a></p>
-            </div>
-            <form action="" method="post" class="formulaire">
-                <input id="email" type="email" name="email" placeholder="Email" />
-                <textarea name="message" id="message" cols="10" rows="10" placeholder="Message"></textarea>
-                <input type="submit" id="send" value="Send" />
-            </form>
-        </div>
-    </section>
+    </main>
 </body>
 
 </html>
